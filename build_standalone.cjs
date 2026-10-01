@@ -67,12 +67,25 @@ const singleHtml = `<!doctype html>
     <meta name="keywords" content="studio musik, recording studio, soundscape tech, mixing mastering, sewa studio musik, palangka raya" />
     <meta name="author" content="Soundscape Tech" />
 
-    <!-- Open Graph / WhatsApp -->
+    <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://solusilokal.github.io/Soundscape-Tech/" />
     <meta property="og:site_name" content="Soundscape Tech" />
     <meta property="og:title" content="Soundscape Tech - Premium Music Production & Recording Studio" />
     <meta property="og:description" content="Wujudkan karya audio dan visual terbaik Anda bersama Soundscape Tech. Reservasi jadwal studio rekaman & rehearsal mudah via WhatsApp." />
-    <meta property="og:image" content="./hero-bg.jpg" />
+    <meta property="og:image" content="./og-image.png" />
+    <meta property="og:image:secure_url" content="./og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://solusilokal.github.io/Soundscape-Tech/" />
+    <meta name="twitter:title" content="Soundscape Tech - Premium Music Production & Recording Studio" />
+    <meta name="twitter:description" content="Wujudkan karya audio dan visual terbaik Anda bersama Soundscape Tech. Menggabungkan akustik ruang berkelas dengan teknologi produksi modern untuk hasil standar industri." />
+    <meta name="twitter:image" content="./og-image.png" />
+
+    <!-- Fallback Image Link -->
+    <link rel="image_src" href="./og-image.png" />
 
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
